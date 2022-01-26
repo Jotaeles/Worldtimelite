@@ -15,7 +15,7 @@ const Hour = ({ hour, isFirst = false }) => {
   const fontSizeClass = isFirst ? "text-xs" : "text-sm";
   return (
     <div
-      className={`p-2 flex flex-col items-center ${colorClass} ${fontColorClass}`}
+      className={`p-2 flex flex-col items-center justify-center ${colorClass} ${fontColorClass}`}
       style={{ width: "40px", minWidth: "40px" }}
     >
       <div className={`font-bold ${fontSizeClass}`}>{value}</div>

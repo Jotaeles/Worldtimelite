@@ -60,10 +60,6 @@ const Container = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search]);
 
-  useEffect(() => {
-    console.log("locations: ", locations);
-  }, [locations]);
-
   return (
     <div
       className="bg-gray-100 rounded-lg p-8 shadow-xl"

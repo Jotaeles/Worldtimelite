@@ -1,0 +1,27 @@
+export const MAX_DAYS = 3;
+export const HOURS_WIDTH = 480;
+export const HOURS = [
+  { type: "am", value: 1, color: "black" },
+  { type: "am", value: 2, color: "black" },
+  { type: "am", value: 3, color: "black" },
+  { type: "am", value: 4, color: "black" },
+  { type: "am", value: 5, color: "black" },
+  { type: "am", value: 6, color: "blue" },
+  { type: "am", value: 7, color: "blue" },
+  { type: "am", value: 8, color: "normal" },
+  { type: "am", value: 9, color: "normal" },
+  { type: "am", value: 10, color: "normal" },
+  { type: "am", value: 11, color: "normal" },
+  { type: "pm", value: 12, color: "normal" },
+  { type: "pm", value: 1, color: "normal" },
+  { type: "pm", value: 2, color: "normal" },
+  { type: "pm", value: 3, color: "normal" },
+  { type: "pm", value: 4, color: "normal" },
+  { type: "pm", value: 5, color: "normal" },
+  { type: "pm", value: 6, color: "blue" },
+  { type: "pm", value: 7, color: "blue" },
+  { type: "pm", value: 8, color: "blue" },
+  { type: "pm", value: 9, color: "black" },
+  { type: "pm", value: 10, color: "black" },
+  { type: "pm", value: 11, color: "black" },
+];
