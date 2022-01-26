@@ -13,8 +13,10 @@ const Hour = ({ hour, isFirst = false }) => {
   }
 
   const fontSizeClass = isFirst ? "text-xs" : "text-sm";
+
   return (
     <div
+      data-testid="hour-container"
       className={`p-2 flex flex-col items-center justify-center ${colorClass} ${fontColorClass}`}
       style={{ width: "40px", minWidth: "40px" }}
     >
